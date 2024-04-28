@@ -1,9 +1,6 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
+gem 'github-pages', '>= 217', group: :jekyll_plugins
 
-gem 'github-pages'
-gem 'rouge'
-gem 'jekyll'
-gem 'jekyll-mentions'
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
-gem 'jekyll-gist'
+gem "json", ">= 2.3.0"
+gem "kramdown", ">= 2.3.0"
+gem "nokogiri", ">= 1.10.8"
