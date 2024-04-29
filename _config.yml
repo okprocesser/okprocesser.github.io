@@ -2,53 +2,38 @@
 # Theme Customization #
 #######################
 
-title: kil ye won                         # used in <title> tag & site header
-author: Johnny Bravo                        # used in a <meta> tag & /feed.xml
+title: kil ye won's homepage                 # used in <title> tag & site header
+author: kil ye won                      # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
   단국대학교 컴퓨터공학과 재학
   
-slogan: gaze on me!                      # used in site header, beside title
+slogan: 나도몰르는대 ? 어카라고 일단씀                 # used in site header, beside title
 avatar: ./i/avatar.png                       # used as portrait in site header
 banner: ./i/mountains.svg                    # used as background in site header
 baseurl: ''                                 # prepended to all absolute filepaths
-repo: https://github.com/okprocesser # used in footer
+repo: https://github.com/okprocesser/okprocesser.github.io
+
 
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
   - name: Posts
     url: /
-    icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: Projects
-    url: /projects
-    icon: /i/icons.svg#portfolio
+    icon: /i/icons.svg#posts
+  - name: About Me
+    url: /about
+    icon: /i/icons.svg#user
   - name: GitHub
     url: https://github.com/okprocesser
     icon: /i/icons.svg#github
-    outbound: true      # this key sets a link to open in a new window.
+    outbound: true
   - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+    scheme: kyw5289.94@gmail.com
+    handle: hello
+    domain: github.com
     icon: /i/icons.svg#email
 
-# Objects listed here will appear on the /projects.html page.
-projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue''            
-    role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
-    category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
+
 
 #################
 # Site Settings #

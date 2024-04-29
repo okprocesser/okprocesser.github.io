@@ -1,0 +1,13 @@
+---
+layout: page
+title: "About Me"
+permalink: /about/
+---
+
+{% for item in site.about_me %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.content }}</p>
+  {% if item.image %}
+    <img src="{{ item.image }}" alt="Description Image">
+  {% endif %}
+{% endfor %}
