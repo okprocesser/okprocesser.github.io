@@ -4,7 +4,7 @@ require 'yaml'
 
 FILETYPE = '.md'.freeze
 
-Blog = Struct.new(:post_list, :tags, :ctgs) do
+Blog = Struct.new(:posts_list, :tags, :ctgs) do
   def reset_labels
     find_labels
     [tags, ctgs].each(&:repopulate)
@@ -13,7 +13,7 @@ Blog = Struct.new(:post_list, :tags, :ctgs) do
   private
 
   def find_labels
-    post_list.each do |file|
+    posts_list.each do |file|
       load_labels_from(file)
     end
   end
