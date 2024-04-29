@@ -13,22 +13,22 @@
     <sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-    <lastBuildDate>{% for posts in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+    <lastBuildDate>{% for posts in site.posts limit:1 %}{{ posts.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
     {% assign feed_items = site.feed_items | default: 10 %}
-    {% for post in site.posts limit:feed_items %}
+    {% for posts in site.posts limit:feed_items %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
+        <title>{{ posts.title | xml_escape }}</title>
         <dc:creator>{{ site.author | xml_escape }}</dc:creator>
-        {% if post.teaser %}
-          <description>{{ post.teaser | xml_escape }}</description>
-        {% elsif post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
+        {% if posts.teaser %}
+          <description>{{ posts.teaser | xml_escape }}</description>
+        {% elsif posts.excerpt %}
+          <description>{{ posts.excerpt | xml_escape }}</description>
         {% else %}
-          <description>{{ post.content | xml_escape }}</description>
+          <description>{{ posts.content | xml_escape }}</description>
         {% endif %}
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <pubDate>{{ posts.date | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}{{ posts.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ posts.url }}</guid>
       </item>
     {% endfor %}
   </channel>

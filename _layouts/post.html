@@ -8,16 +8,16 @@ layout: default
   {% case day %}{% when '1' or '21' or '31' %}{{ day }}st{% when '2' or '22' %}{{ day }}nd{% when '3' or '23' %}{{ day }}rd{% else %}{{ day }}th{% endcase %}{{ page.date | date: ", %Y" }}
 {% endcapture %}
 
-<main class="post" role="main">
-  <div class="post__head">
-    <h1 class="post__title"> {{ page.title }} </h1>
-    <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}"> {{ pretty_date }} </time>
-    <div class="post__labels">
-    {% if page.category %} <a href="{{ site.baseurl }}/category/{{ page.category }}" class="post__category">{{ page.category }}</a>{% endif %}
-    {% if page.tags %}{% for tag in page.tags %} <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>{% endfor %}{% endif %}
+<main class="posts" role="main">
+  <div class="posts__head">
+    <h1 class="posts__title"> {{ page.title }} </h1>
+    <time class="posts__date" datetime="{{ page.date | date_to_xmlschema }}"> {{ pretty_date }} </time>
+    <div class="posts__labels">
+    {% if page.category %} <a href="{{ site.baseurl }}/category/{{ page.category }}" class="posts__category">{{ page.category }}</a>{% endif %}
+    {% if page.tags %}{% for tag in page.tags %} <a href="{{ site.baseurl }}/tag/{{ tag }}" class="posts__tag">{{ tag }}</a>{% endfor %}{% endif %}
     </div>
   </div>
-  <div class="post__body">
+  <div class="posts__body">
     {{ content }}
   </div>
 </main>
@@ -25,7 +25,7 @@ layout: default
 {% comment %}
 {% endcomment %}
 
-{% if page.reddit_post %}
+{% if page.reddit_posts %}
   <section class="comments">
     {% if page.featured_comments %}
       {% assign call_to_action = "Join the Discussion" %}
@@ -39,6 +39,6 @@ layout: default
     {% else %}
       {% assign call_to_action = "Comments" %}
     {% endif %}
-    <a href="{{ page.reddit_post }}" target="_blank" class="comments__cta">{{ call_to_action }}</a>
+    <a href="{{ page.reddit_posts }}" target="_blank" class="comments__cta">{{ call_to_action }}</a>
   </section>
 {% endif %}
