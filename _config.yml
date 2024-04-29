@@ -8,8 +8,8 @@ description: >                              # used in a <meta> tag & /feed.xml
   단국대학교 컴퓨터공학과 재학
   
 slogan: gaze on me!                      # used in site header, beside title
-avatar: /i/avatar.png                       # used as portrait in site header
-banner: /i/mountains.svg                    # used as background in site header
+avatar: ./i/avatar.png                       # used as portrait in site header
+banner: ./i/mountains.svg                    # used as background in site header
 baseurl: '/jekyll-solana'                                 # prepended to all absolute filepaths
 repo: https://github.com/okprocesser # used in footer
 
