@@ -1,6 +1,6 @@
-var Contact = {};
+var Instagram = {};
 
-Contact.deobfuscateLink = function(element) {
+Instagram.deobfuscateLink = function(element) {
     var absolutePath   = element.href,
         pathSegments   = absolutePath.split('/'),
         obfuscatedLink = pathSegments[pathSegments.length - 1],
@@ -9,11 +9,11 @@ Contact.deobfuscateLink = function(element) {
     return deobfuscation;
 }
 
-Contact.patchButtons = function(klass) {
+Instagram.patchButtons = function(klass) {
     var elements = document.getElementsByClassName(klass);
     for (i = 0; i < elements.length; i++) {
-        elements[i].href = Contact.deobfuscateLink(elements[i]);
+        elements[i].href = Instagram.deobfuscateLink(elements[i]);
     }
 }
 
-Contact.patchButtons('email');
+Instagram.patchButtons('email');
