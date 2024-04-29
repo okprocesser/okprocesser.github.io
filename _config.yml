@@ -1,0 +1,82 @@
+#######################
+# Theme Customization #
+#######################
+
+title: kil ye won's                # used in <title> tag & site header
+author: kil ye won                      # used in a <meta> tag & /feed.xml
+description: >                              # used in a <meta> tag & /feed.xml
+  future cs engineer
+  
+slogan: homepage            # used in site header, beside title
+avatar: ./i/avatar.png                       # used as portrait in site header
+banner: ./i/mountains.svg                    # used as background in site header
+baseurl: ''                                 # prepended to all absolute filepaths
+repo: https://github.com/okprocesser # used in footer
+
+# Objects listed here will appear in the main nav menu.
+# Exceeding four items may cause problems on the desktop (>900px wide) layout.
+nav_menu:
+  - name: Posts
+    url: /
+    icon: /i/icons.svg#posts # icons should be 24x24 px.
+  - name: Projects
+    url: /projects
+    icon: /i/icons.svg#portfolio
+  - name: GitHub
+    url: https://github.com/okprocesser
+    icon: /i/icons.svg#github
+    outbound: true      # this key sets a link to open in a new window.
+  - name: Contact
+    scheme:  kyw5289.94@gmail.com     # these keys enable email obfuscation.
+    handle: hello       # you know, to protect you from bots. (handle and domain
+    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+    icon: /i/icons.svg#email
+
+# Objects listed here will appear on the /projects.html page.
+projects:
+   - title: 단국대학교 컴퓨터 공학과 3학년 재학중
+    teaser:  학교
+    category: university
+  - title: C, C++, Java, Python /백앤드 
+    role: 이중 c(++)을 가장 좋아하고 자신있어합니다 
+    teaser: 프로그래밍 언어 / 관심분야 
+    category: programming language / interest
+  - title: kyw5289.94@gmail.com
+    teaser: 이메일 주소 
+    category: e-mail address
+
+#################
+# Site Settings #
+#################
+
+incremental: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - TODO.md
+
+permalink: /:collection/:path
+
+collections:
+  category: { output: true }
+  tag:      { output: true }
+
+defaults:
+  - scope:  { type:   posts    }
+    values: { layout: post     }
+  - scope:  { type:   tag      }
+    values: { layout: listing  }
+  - scope:  { type:   category }
+    values: { layout: listing  }
+
+sass:
+  sass_dir: _assets/css
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+paginate: 10
