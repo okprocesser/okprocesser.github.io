@@ -2,12 +2,12 @@
 # Theme Customization #
 #######################
 
-title: kil ye won                         # used in <title> tag & site header
-author: Johnny Bravo                        # used in a <meta> tag & /feed.xml
+title: kil ye won's                # used in <title> tag & site header
+author: kil ye won                      # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
-  단국대학교 컴퓨터공학과 재학
+  future cs engineer
   
-slogan: gaze on me!                      # used in site header, beside title
+slogan: homepage            # used in site header, beside title
 avatar: ./i/avatar.png                       # used as portrait in site header
 banner: ./i/mountains.svg                    # used as background in site header
 baseurl: ''                                 # prepended to all absolute filepaths
@@ -27,28 +27,23 @@ nav_menu:
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
+    scheme:  kyw5289.94@gmail.com     # these keys enable email obfuscation.
     handle: hello       # you know, to protect you from bots. (handle and domain
     domain: github.com  # are separated in case bots crawl GitHub repos, too.)
     icon: /i/icons.svg#email
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue''            
-    role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
-    category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
+   - title: 단국대학교 컴퓨터 공학과 3학년 재학중
+    teaser:  학교
+    category: university
+  - title: C, C++, Java, Python /백앤드 
+    role: 이중 c(++)을 가장 좋아하고 자신있어합니다 
+    teaser: 프로그래밍 언어 / 관심분야 
+    category: programming language / interest
+  - title: kyw5289.94@gmail.com
+    teaser: 이메일 주소 
+    category: e-mail address
 
 #################
 # Site Settings #
