@@ -34,7 +34,7 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-   - title: 단국대학교 컴퓨터 공학과 3학년 재학중
+  - title: 단국대학교 컴퓨터 공학과 3학년 재학중
     teaser:  학교
     category: university
   - title: C, C++, Java, Python /백앤드 
