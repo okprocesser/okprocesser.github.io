@@ -2,7 +2,7 @@
 # Theme Customization #
 #######################
 
-title: kil ye won's homepage                 # used in <title> tag & site header
+title: kil ye won's                # used in <title> tag & site header
 author: kil ye won                      # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
   future cs engineer
@@ -17,9 +17,9 @@ repo: https://github.com/okprocesser # used in footer
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
   - name: Posts
-    url: /_posts
+    url: /posts
     icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: projects
+  - name: About
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
@@ -35,7 +35,7 @@ nav_menu:
 # Objects listed here will appear on the /projects.html page.
 projects:
   - title: introduce
-    teaser: 밥먹기싶어................            
+    teaser:             
     role: Creator
     category: Frontend Dev
   - title: Cortana
