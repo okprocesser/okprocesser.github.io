@@ -10,7 +10,7 @@ description: >                              # used in a <meta> tag & /feed.xml
 slogan: gaze on me!                      # used in site header, beside title
 avatar: ./i/avatar.png                       # used as portrait in site header
 banner: ./i/mountains.svg                    # used as background in site header
-baseurl: '/jekyll-solana'                                 # prepended to all absolute filepaths
+baseurl: ''                                 # prepended to all absolute filepaths
 repo: https://github.com/okprocesser # used in footer
 
 # Objects listed here will appear in the main nav menu.
@@ -36,7 +36,7 @@ nav_menu:
 projects:
   - title: Solana
     teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue/jekyll-solana
+    url: https://github.com/rlue''            
     role: Creator
     category: Frontend Dev
   - title: Cortana
