@@ -1,8 +1,8 @@
 ---
-title: 공부기록장 & 정리
-teaser: Sit amet, consectetur adipiscing elit. Donec ornare hendrerit nulla, at pharetra sapien posuere vitae.
+title: IS2C0m5ci
+teaser: 공부 기록/ 정리 - 미완성
 category: fusce
-tags: [posuere, blandit, cras]
+tags: 
 ---
 
 알고리즘 정리 
