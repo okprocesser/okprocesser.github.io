@@ -8,5 +8,5 @@ ai가 발전해서 빨리 내가 그림을 그리지 않는 시대가 도래해�
 
 
 ![LImage](https://pbs.twimg.com/media/GH-5LdVbUAAL_BR?format=jpg&name=large "ilust1")
-![LImage](https://i.pximg.net/img-master/img/2024/03/27/16/08/19/117296404_p0_master1200.jpg "ilust2")
-![LImage](https://i.pximg.net/img-master/img/2024/01/06/19/34/43/114937110_p0_master1200.jpg "ilust3")
+![LImage](https://pbs.twimg.com/media/GJpvWQWa4AAXeG8?format=jpg&name=large "ilust2")
+![LImage](https://pbs.twimg.com/media/GLDx-w4asAArh7A?format=jpg&name=large "ilust3")
