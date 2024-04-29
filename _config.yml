@@ -69,7 +69,7 @@ collections:
 
 defaults:
   - scope:  { type:   posts    }
-    values: { layout: post     }
+    values: { layout: postsn     }
   - scope:  { type:   tag      }
     values: { layout: listing  }
   - scope:  { type:   category }
