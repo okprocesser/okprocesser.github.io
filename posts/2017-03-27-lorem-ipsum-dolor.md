@@ -40,6 +40,6 @@ Praesent egestas [enim et arcu iaculis tempus][enim]. Sed eget semper diam. Null
 
 Nunc vitae pulvinar nunc, sit amet blandit quam. Sed sit amet mattis quam. Nam a placerat nunc. Praesent tempus rutrum sapien, ac volutpat quam consequat quis.
 {% raw %}
-[nisi]: {% link _posts/2017-03-28-welcome-to-solana.md %}
+[nisi]: {% link posts/2017-03-28-welcome-to-solana.md %}
 [enim]: {% posts_url 2017-03-28-welcome-to-solana %}
 {% endraw %}
