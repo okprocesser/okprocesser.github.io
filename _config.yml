@@ -7,7 +7,7 @@ author: kil ye won                      # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
   future cs engineer
   
-slogan: 나도몰르는대 ? 어카라고 일단씀                 # used in site header, beside title
+slogan: 나도몰르는대                  # used in site header, beside title
 avatar: ./i/avatar.png                       # used as portrait in site header
 banner: ./i/mountains.svg                    # used as background in site header
 baseurl: ''                                 # prepended to all absolute filepaths
@@ -17,9 +17,9 @@ repo: https://github.com/okprocesser # used in footer
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
   - name: Posts
-    url: /
+    url: /posts
     icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: changename
+  - name: projects
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
