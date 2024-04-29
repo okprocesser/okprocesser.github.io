@@ -7,4 +7,3 @@
 
 [solana.ryanlue.com/](https://github.com/rlue/jekyll-solana)
 © 2017 Ryan Lue. This project is licensed under the terms of the MIT license.
-
