@@ -9,7 +9,7 @@ description: >                              # used in a <meta> tag & /feed.xml
   
 slogan: homepage            # used in site header, beside title
 avatar: ./i/avatar.png                       # used as portrait in site header
-banner: ./i/header.png                  # used as background in site header
+banner: ./i/mountains.svg                  # used as background in site header
 baseurl: ''                                 # prepended to all absolute filepaths
 repo: https://github.com/okprocesser # used in footer
 
@@ -19,7 +19,7 @@ nav_menu:
   - name: Posts
     url: 
     icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: Projects
+  - name: About
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
@@ -42,6 +42,7 @@ projects:
     teaser: 프로그래밍 언어 / 관심분야 
     category: programming language / interest
   - title: kyw5289.94@gmail.com
+  
     teaser: 이메일 주소 
     category: e-mail address
 

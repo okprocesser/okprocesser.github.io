@@ -7,6 +7,6 @@ teaser: 라고 쓰기에는 대단하지 않음
 ai가 발전해서 빨리 내가 그림을 그리지 않는 시대가 도래해야한다-_-
 
 
-![LImage](https://pbs.twimg.com/media/GH-5LdVbUAAL_BR?format=jpg&name=large "ilust1")
-![LImage](https://pbs.twimg.com/media/GJpvWQWa4AAXeG8?format=jpg&name=large "ilust2")
-![LImage](https://pbs.twimg.com/media/GLDx-w4asAArh7A?format=jpg&name=large "ilust3")
+![LImage](https://pbs.twimg.com/media/GH-5LdVbUAAL_BR?format=jpg&name=large "ilust1"){: width="70%" height="70%"}
+![LImage](https://pbs.twimg.com/media/GJpvWQWa4AAXeG8?format=jpg&name=large "ilust2"){: width="70%" height="70%"}
+![LImage](https://pbs.twimg.com/media/GLDx-w4asAArh7A?format=jpg&name=large "ilust3"){: width="70%" height="70%"}
