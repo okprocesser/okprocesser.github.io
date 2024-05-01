@@ -17,7 +17,7 @@ repo: https://github.com/okprocesser # used in footer
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
   - name: Posts
-    url: 
+    url: /
     icon: /i/icons.svg#posts # icons should be 24x24 px.
   - name: About
     url: /projects
