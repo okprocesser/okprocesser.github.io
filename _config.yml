@@ -9,7 +9,7 @@ description: >                              # used in a <meta> tag & /feed.xml
   
 slogan: homepage            # used in site header, beside title
 avatar: ./i/avatar.png                       # used as portrait in site header
-banner: ./i/mountains.svg                  # used as background in site header
+banner: ./i/header.png #./i/mountains.svg                  # used as background in site header
 baseurl: ''                                 # prepended to all absolute filepaths
 repo: https://github.com/okprocesser # used in footer
 
@@ -26,9 +26,9 @@ nav_menu:
     url: https://github.com/okprocesser
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
-  - name: Instagram
-    url: https://www.instagram.com/hat.inthe.cat_/
-    icon: /i/icons.svg#github
+  - name: baekjoon
+    url: https://www.acmicpc.net/user/okprocessor
+    icon: /i/icons.svg#email
     outbound: true      # this key sets a link to open in a new window.
    
 # Objects listed here will appear on the /projects.html page.

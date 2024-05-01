@@ -2,20 +2,13 @@
 title: 4B0U7 M3. . .
 teaser: 간단한 자기 소개 토막글 
 category: intro
-tags: [cs, 그림, 음악]
 ---
-GitHub :  https://github.com/okprocesser
-Instagram:  https://www.instagram.com/hat.inthe.cat_/
-Email: kyw5289.94@gmail.com
+
 
 ## $mynameis?
 ## >>>kilyewon
 
-***단국대학교 컴퓨터 공학과 22학번***
-*C, C++, Java, Python - backend*
-GitHub :  https://github.com/okprocesser
-Instagram:  https://www.instagram.com/hat.inthe.cat_/
-Email: kyw5289.94@gmail.com
+
 
 안녕하세요! 저는 길예원이라고 합니다. 좋은 개발자가 되기 위해 단국대학교 컴퓨터 공학과에서 공부하고 있습니다. 코딩도 좋아하지만,  컴퓨터 구조와 운영체제같은 이론적인 분야를 유독 좋아합니다. 그래서 배운 언어들 중 C언어에 가장 관심이 많으며, mips나 ia-32등도 잊지 않게 공부하고 있습니다. 저는 백엔드 개발자가 되는걸 목표로 삼고 있으며, 임베디드 분야도 알아보려고 노력하는 중입니다. 아직 이론적인 면에 치중하여 실무 경험이 부족한 점은 있지만, 기초가 튼튼한 컴퓨터 엔지니어로 성장해가고 있다고 자부할 수 있습니다.
 

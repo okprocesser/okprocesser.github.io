@@ -5,7 +5,7 @@ category: willUploadAfter
 tags: 
 ---
 미완성
-필기 정리 img + 백준 링크 등 올릴 예정
+필기 정리와 공부할것, 북마크 백업 등 업로드 예정 
 
 
  
