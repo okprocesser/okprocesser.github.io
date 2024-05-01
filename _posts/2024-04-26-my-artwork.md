@@ -1,6 +1,7 @@
 ---
 title: 4r7W0rk
 teaser: 라고 쓰기에는 대단하지 않음 
+category: ilust
 ---
 
 그나마 할줄 안다고 말할게 이것 말곤 다른게 없다
