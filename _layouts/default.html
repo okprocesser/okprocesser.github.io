@@ -61,8 +61,18 @@
       </header>
       <hr>
 
-      {{ content }}
-
+      {% include nav.html %}
+      <div class="container">
+        <!-- 플러터 웹 애플리케이션 포함 -->
+        {% if page.title == "Flutter Web App" %}
+          <div id="flutter-container">
+            <iframe src="/web/index.html" width="100%" height="100%" frameborder="0"></iframe>
+          </div>
+        {% else %}
+          <!-- 기존 페이지 콘텐츠 포함 -->
+          {{ content }}
+        {% endif %}
+      </div>
       <hr>
       <footer class="colophon colophon--{{ page_type }}">
         <span class="colophon__statement">This blog is powered by Jekyll.</span>

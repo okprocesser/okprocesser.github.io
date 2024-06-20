@@ -30,6 +30,10 @@ nav_menu:
     url: https://www.acmicpc.net/user/okprocessor
     icon: /i/icons.svg#email
     outbound: true      # this key sets a link to open in a new window.
+  - name: flutter
+    url: /web
+    icon: /i/icons.svg#email
+    outbound: true      # this key sets a link to open in a new window.
    
 # Objects listed here will appear on the /projects.html page.
 projects:
