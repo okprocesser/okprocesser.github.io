@@ -22,9 +22,6 @@ nav_menu:
   - name: About
     url: /projects
     icon: /i/icons.svg#portfolio
-  - name: GitHub
-    url: https://github.com/okprocesser
-    icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: baekjoon
     url: https://www.acmicpc.net/user/okprocessor
